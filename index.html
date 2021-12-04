@@ -9,14 +9,17 @@
         min-height:100vh;
         background-image: radial-gradient(circle closest-corner, #5a0000, #ff4600, #000000);
       }
+      #ring {
+        height:50vh;
+        border-radius: 50%;
+        background-image: radial-gradient(circle farthest-side, rgba(128, 128, 32, 0) 89%, #7f7f1f 90%, #cfff7f 95%, #ffffdf 97%, #ff801a 99%, rgba(255, 129, 26, 0) 100%)
     </style>
   </head>
   <body id=bkg>
-    <div>
-      <div align=center>
-        <h1>Currently a CSS testing ground</h1>
-        <hr>
-      </div>
+    <div align=center>
+      <h1>Currently a CSS testing ground</h1>
+      <hr>
     </div>
+    <div id=ring></div>
   </body>
 </html>
